@@ -2,30 +2,21 @@
 
 nvidia-smi
 
+## 반드시 nvidia 드라이버가 설치되어 있어야 합니다.
+
 -----------------------------------------
-#2. apt install
+#2. apt install & pip3 install
 
-sudo apt update
-sudo apt install python3-pip curl net-tools samba git 
-sudo apt-get -y install g++ cmake cmake-gui doxygen mpi-default-dev openmpi-bin openmpi-common
-sudo apt install libeigen3-dev
-sudo apt-get -y install libusb-1.0-0-dev libqhull* libusb-dev libgtest-dev
-sudo apt-get -y install git-core freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev
-sudo apt-get -y install libphonon-dev libphonon-dev phonon-backend-gstreamer
-sudo apt-get -y install qt5-default
-sudo apt-get -y install flex bison
-sudo apt-get install libflann-dev libvtk5-dev libboost-all-dev libusb-1.0-0-dev libqhull-dev libpcap0.8-dev
--------------------------------------------------------
+cd
+git clone https://github.com/jetsonai/LstmSensFu_Class
+cd ~/LstmSensFu_Class/ClassSetting 
 
-#3. pip3 install
+chmod 777 installPackage.sh
 
-pip3 install gdown
-pip3 install ultralytics
-pip3 install bertopic hdbscan
-pip3 install torchmetrics
+./installPackage.sh
 
 -----------------------------------------------
-#4. install metslib-0.5.3
+#3. install metslib-0.5.3
 
 tar zxvf metslib-0.5.3.tgz
 cd metslib-0.5.3/
@@ -33,12 +24,17 @@ cd metslib-0.5.3/
 ./configure 
 make
 sudo make install
+cd ..
 
 -----------------------------------------------
-#5. install pcl-pcl-1.13.0
+#4. install pcl-pcl-1.13.0
 
+아래 링크에서 pcl-pcl-1.13.0.tar.gz를 다운받는다.
 https://drive.google.com/file/d/1ERwuwWVI5NQMf4KrOrPVn5-lnN0tzqMz/view?usp=sharing
 
+cp ~/Downloads/pcl-pcl-1.13.0.tar.gz ~/LstmSensFu_Class/ClassSetting
+
+cd ~/LstmSensFu_Class/ClassSetting
 tar xvf pcl-pcl-1.13.0.tar.gz 
 pcl-pcl-1.13.0 && mkdir build && cd build
 sudo apt install cmake
