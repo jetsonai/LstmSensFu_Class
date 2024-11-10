@@ -37,6 +37,8 @@ sudo make install
 -----------------------------------------------
 #5. install pcl-pcl-1.13.0
 
+https://drive.google.com/file/d/1ERwuwWVI5NQMf4KrOrPVn5-lnN0tzqMz/view?usp=sharing
+
 tar xvf pcl-pcl-1.13.0.tar.gz 
 pcl-pcl-1.13.0 && mkdir build && cd build
 sudo apt install cmake
