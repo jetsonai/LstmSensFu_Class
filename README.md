@@ -11,7 +11,7 @@ https://github.com/jetsonai/LstmSensFu_Class/tree/main/ClassSetting
 setting_senfu_basic.txt
 
 ### 텍스트 파일 참조하여 기본 세팅을 해줍니다. 
-### apt install 과 pip3 install 은 오래 걸리지 않습니다. 
+### installPackage.sh 실행은 오래 걸리지 않습니다. 
 ### pcl 설치 중 pcl 빌드를 시작하고 3시간 정도 다른 일을 하는 것을 권장합니다.
 ### 마지막 체크 과정 잊지 마세요.
 
