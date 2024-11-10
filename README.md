@@ -24,7 +24,7 @@ cd UltralyticsOrinNanoSetting
 
 ## 텍스트 파일 참조하여 추가 세팅을 해줍니다.
 
-## 4. LSTM Tracking
+## 3. LSTM Tracking
 
 ### 홈으로 이동합니다.
 
@@ -36,7 +36,7 @@ cd LSTMTrackingNvidia
 
 ## ReadMe 파일 참조하여 실습을 진행합니다.
 
-## 5. CameraLidar SensorFusion
+## 4. CameraLidar SensorFusion
 
 ### 홈으로 이동합니다.
 
@@ -48,7 +48,7 @@ cd CameraLidarSensorFusion
 
 ## ReadMe 파일 참조하여 실습을 진행합니다.
 
-## 6. ROS2 예제 CameraLidar SensorFusion 
+## 5. ROS2 예제 CameraLidar SensorFusion 
 
 cd ~/CameraLidarSensorFusion/ROS2Ex
 
