@@ -1,0 +1,82 @@
+#1. check nvidia driver
+
+nvidia-smi
+
+-----------------------------------------
+#2. apt install
+
+sudo apt update
+sudo apt install python3-pip curl net-tools samba git 
+sudo apt-get -y install g++ cmake cmake-gui doxygen mpi-default-dev openmpi-bin openmpi-common
+sudo apt install libeigen3-dev
+sudo apt-get -y install libusb-1.0-0-dev libqhull* libusb-dev libgtest-dev
+sudo apt-get -y install git-core freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev
+sudo apt-get -y install libphonon-dev libphonon-dev phonon-backend-gstreamer
+sudo apt-get -y install qt5-default
+sudo apt-get -y install flex bison
+sudo apt-get install libflann-dev libvtk5-dev libboost-all-dev libusb-1.0-0-dev libqhull-dev libpcap0.8-dev
+-------------------------------------------------------
+
+#3. pip3 install
+
+pip3 install gdown
+pip3 install ultralytics
+pip3 install bertopic hdbscan
+pip3 install torchmetrics
+
+-----------------------------------------------
+#4. install metslib-0.5.3
+
+tar zxvf metslib-0.5.3.tgz
+cd metslib-0.5.3/
+./config
+./configure 
+make
+sudo make install
+
+-----------------------------------------------
+#5. install pcl-pcl-1.13.0
+
+tar xvf pcl-pcl-1.13.0.tar.gz 
+pcl-pcl-1.13.0 && mkdir build && cd build
+sudo apt install cmake
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
+make install
+sudo make install
+
+----------------------------------
+
+#6. Last install for pcl and open3d
+
+sudo add-apt-repository ppa:sweptlaser/python3-pcl
+sudo apt update
+sudo apt install python3-pcl
+
+
+pip3 install open3d
+-----------------------------------------------
+
+#7 to check
+
+$ python3
+Python 3.8.10 (default, Sep 11 2024, 16:02:53) 
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import scipy
+>>> import pandas
+>>> import tqdm
+>>> import matplotlib.pyplot as plt
+>>> import ultralytics
+>>> import seaborn
+>>> from sklearn import datasets
+>>> import pcl, open3d
+>>> import torchmetrics
+
+---------------------------------------
+#8. install vlc
+
+sudo snap install vlc
+
+
+
