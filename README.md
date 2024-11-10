@@ -2,11 +2,13 @@
 
 ## 1. 환경 세팅
 
-git clone https://github.com/jetsonai/LstmSensFu_Class/
+아래의 세팅 링크로 이동한 후
 
-cd LstmSensFu_Class
+https://github.com/jetsonai/LstmSensFu_Class/tree/main/ClassSetting
 
-cd ClassSetting
+아래의 텍스트 파일을 클릭하세요.
+
+setting_senfu_basic.txt
 
 ### 텍스트 파일 참조하여 기본 세팅을 해줍니다. 
 ### apt install 과 pip3 install 은 오래 걸리지 않습니다. 
