@@ -58,7 +58,7 @@ git clone https://github.com/jetsonai/CameraLidarSensorFusion
 
 cd CameraLidarSensorFusion
 
-## ReadMe 파일 참조하여 실습을 진행합니다.
+### ReadMe 파일 참조하여 실습을 진행합니다.
 
 -----------------------------------
 
@@ -66,7 +66,17 @@ cd CameraLidarSensorFusion
 
 cd ~/CameraLidarSensorFusion/ROS2Ex
 
-## ReadMe 파일 참조하여 실습을 진행합니다.
+### ReadMe 파일 참조하여 실습을 진행합니다.
+
+-------------------------------------
+
+## [TODO 1] Orin Nano TensoRT 버전
+
+------------------------------------
+
+## [TODO 2] CameraLidar SensorFusion 알고리즘 개선 버전
+
+
 
 
 
