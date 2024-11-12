@@ -2,11 +2,11 @@
 
 ## 1. 환경 세팅
 
-아래의 세팅 링크로 이동한 후
+### 20.04 리눅스 환경의 경우 아래의 세팅 링크로 이동한 후
 
 https://github.com/jetsonai/LstmSensFu_Class/tree/main/ClassSetting
 
-아래의 텍스트 파일을 클릭하세요.
+### 아래의 텍스트 파일을 클릭하세요.
 
 setting_senfu_basic.txt
 
